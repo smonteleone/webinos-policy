@@ -85,7 +85,7 @@
 			<AttributeValue>#DHPcurrent-and-pseudo-analysis</AttributeValue>
 		</ProvisionalAction>
 		<ProvisionalAction>
-			<AttributeValue>http://webinos.org/api/messaging</AttributeValue>
+			<AttributeValue>http://webinos.org/api/contacts</AttributeValue>
 			<AttributeValue>#DHPcurrent-and-pseudo-analysis</AttributeValue>
 		</ProvisionalAction>
 		<ProvisionalAction>

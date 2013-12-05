@@ -26,12 +26,12 @@ var rootPolicyFile = './rootPolicy.xml';
 var featureList = [
 	"http://webinos.org/api/discovery",
 	"http://webinos.org/api/w3c/geolocation",
-	"http://webinos.org/api/messaging",
-	"http://webinos.org/api/messaging.find",
-	"http://webinos.org/api/messaging.send",
-	"http://webinos.org/api/messaging.subscribe",
+	"http://webinos.org/api/contacts",
+	"http://webinos.org/api/contacts/read",
+	"http://webinos.org/api/contacts/write",
+	"http://webinos.org/api/mediaplay",
 	"http://webinos.org/api/nfc",
-	"http://webinos.org/api/nfc.read",
+	"http://webinos.org/api/nfc/read",
 	"http://cdi-api.org/test"   // example of third party API
 	];
 

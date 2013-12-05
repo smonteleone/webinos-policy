@@ -8,12 +8,12 @@ var rootPolicyFile = "./rootPolicy.xml";
 					   
 //	"http://webinos.org/api/discovery",
 //	"http://webinos.org/api/w3c/geolocation",
-//	"http://webinos.org/api/messaging",
-//	"http://webinos.org/api/messaging.find",
-//	"http://webinos.org/api/messaging.send",
-//	"http://webinos.org/api/messaging.subscribe",
+//	"http://webinos.org/api/contacts",
+//	"http://webinos.org/api/contacts/read",
+//	"http://webinos.org/api/contacts/write",
+//	"http://webinos.org/api/contacts.subscribe",
 //	"http://webinos.org/api/nfc",
-//	"http://webinos.org/api/nfc.read"
+//	"http://webinos.org/api/nfc/read"
 
 // currently not testing purpose or obligation
 // System default is to convert a PERMIT to BLANKER
@@ -75,7 +75,7 @@ var tests = [
 //	["Test Manufacturer 4", 1, "policy-manufacturer-1.xml", "user2", "cert2", "http://mega.org/api/open1", "device1"],
 	["Test Manufacturer 5", 1, "policy-manufacturer-1.xml", "user3", "cert2", "http://mega.org/api/open1", "device1"],
 //	["Test Manufacturer 6", 4, "policy-manufacturer-1.xml", "user3", "cert2", "http://webinos.org/api/w3c/geolocation", "device1"],
-//	["Test Manufacturer 7", 4, "policy-manufacturer-1.xml", "user2", "cert2", "http://webinos.org/api/messaging.send", "device3"],
+//	["Test Manufacturer 7", 4, "policy-manufacturer-1.xml", "user2", "cert2", "http://webinos.org/api/contacts/write", "device3"],
 //  ["Test Manufacturer 8", 4, "policy-manufacturer-1.xml", "user3", "cert2", "http://webinos.org/api/w3c/geolocation", "device2"],
 //    ["Test Manufacturer 9", 4, "policy-manufacturer-1.xml", "user2", "cert2", "http://webinos.org/api/w3c/geolocation", "device2"],
 	["Test Manufacturer 10", 1, "policy-manufacturer-1.xml", "user4", "cert2", "http://webinos.org/api/w3c/geolocation", "device2"]

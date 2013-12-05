@@ -8,7 +8,7 @@
 		<rule effect="permit">
 			<condition combine="or">
 				<resource-match attr="api-feature" match="http://webinos.org/api/discovery"/>
-				<resource-match attr="api-feature" match="http://webinos.org/api/messaging"/>
+				<resource-match attr="api-feature" match="http://webinos.org/api/contacts"/>
 				<resource-match attr="api-feature" match="http://webinos.org/api/nfc"/>
 				<resource-match attr="api-feature" match="http://webinos.org/api/w3c/geolocation"/>
 			</condition>
@@ -24,7 +24,7 @@
 		<rule effect="permit">
 			<condition combine="or">
 				<resource-match attr="api-feature" match="http://webinos.org/api/discovery"/>
-				<resource-match attr="api-feature" match="http://webinos.org/api/messaging.find"/>
+				<resource-match attr="api-feature" match="http://webinos.org/api/contacts/read"/>
 				<resource-match attr="api-feature" match="http://webinos.org/api/w3c/geolocation"/>
 			</condition>
 		</rule>

@@ -8,7 +8,7 @@
 		<rule effect="permit">
 			<ProvisionalActions>
 				<ProvisionalAction>
-					<AttributeValue>http://webinos.org/api/messaging</AttributeValue>
+					<AttributeValue>http://webinos.org/api/contacts</AttributeValue>
 					<AttributeValue>#DHPcurrent_and_presudo-analysis</AttributeValue>
 				</ProvisionalAction>
 				<ProvisionalAction>
@@ -58,7 +58,7 @@
 			<AttributeValue>#DHPcurrent</AttributeValue>
 		</ProvisionalAction>
 		<ProvisionalAction>
-			<AttributeValue>http://webinos.org/api/messaging</AttributeValue>
+			<AttributeValue>http://webinos.org/api/contacts</AttributeValue>
 			<AttributeValue>#DHPcurrent_and_presudo-analysis</AttributeValue>
 		</ProvisionalAction>
 	</ProvisionalActions>

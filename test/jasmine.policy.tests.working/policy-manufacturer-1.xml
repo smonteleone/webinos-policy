@@ -19,7 +19,7 @@
 			<rule effect="deny">
 				<condition combine="or">
 					<resource-match attr="api-feature" match="http://mega.org/api/secret1"/>
-					<resource-match attr="api-feature" match="http://mega.org/api/api/secet2"/>
+					<resource-match attr="api-feature" match="http://mega.org/api/api/secret2"/>
 				</condition>
 			</rule>
 			
@@ -86,7 +86,7 @@
 			
 			<rule effect="permit">
 				<condition combine="and">
-					<resource-match attr="api-feature" match="http://webinos.org/api/messaging.send"/>
+					<resource-match attr="api-feature" match="http://webinos.org/api/contacts/write"/>
 				</condition>
 			</rule>
 		</policy>

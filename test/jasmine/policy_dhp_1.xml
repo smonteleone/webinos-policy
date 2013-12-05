@@ -51,7 +51,11 @@
 			<AttributeValue>#DHPallow-all</AttributeValue>
 		</ProvisionalAction>
 		<ProvisionalAction>
-			<AttributeValue>http://webinos.org/api/messaging</AttributeValue>
+			<AttributeValue>http://webinos.org/api/contacts</AttributeValue>
+			<AttributeValue>#DHPallow-all</AttributeValue>
+		</ProvisionalAction>
+		<ProvisionalAction>
+			<AttributeValue>http://webinos.org/api/mediaplay</AttributeValue>
 			<AttributeValue>#DHPallow-all</AttributeValue>
 		</ProvisionalAction>
 		<ProvisionalAction>
